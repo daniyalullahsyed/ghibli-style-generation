@@ -27,10 +27,11 @@ ghibli-style-image-generation/
 └── README.md           # This file
 ```
 
-Dataset
+### Dataset
+
 We created a new open-source dataset named ghibli-illustration-dataset, which is available on Kaggle and Hugging Face. This dataset consists of 400 image pairs, each containing an original real-world photograph and its Ghibli-style illustrated version.
 
-Models
+### Models
 This project explores two different models for Ghibli-style image generation:
 
 Group 1: Pix2PixHD from Scratch
@@ -43,38 +44,40 @@ Authors: Amarsaikhan Batjargal, Talha Azaz
 
 Description: Fine-tuning of a pretrained Stable Diffusion v1.5 model using LoRA.
 
-Installation
+### Installation
 To set up the environment and install the required dependencies, please follow these steps:
 
 Clone the repository:
-
-Bash
-
+```
 git clone https://github.com/your-username/ghibli-style-image-generation.git
 cd ghibli-style-image-generation
+```
+
 Install the required packages:
-
-Bash
-
+```
 pip install -r requirements.txt
-Usage
+```
+
+### Usage
 You can use the provided Jupyter Notebook (CSC594_Project_GhibliGenerator.ipynb) located in the notebooks/ directory to explore the data, train the models, and generate images. The notebook is organized into sections for each group's approach.
 
-Results
+### Results
 Our models were evaluated using FID, SSIM, and LPIPS metrics. The fine-tuned Stable Diffusion model achieved a final training loss of 0.0796 (MSE) with validation metrics of SSIM=0.71 and LPIPS=0.19, indicating decent structural and perceptual fidelity.
 
 Here are some examples of the generated images:
 
 
 
-Citation
+### Citation
 If you use this work in your research, please cite our paper:
-
+```
 @article{ghibli_style_2025,
   title={Ghibli-Style Image Generation from Scratch and Pretrained Models},
   author={Batjargal, Amarsaikhan and Pookkattuparambil, Sujay and Azaz, Talha and Syed, Daniyal},
   year={2025},
   journal={arXiv preprint arXiv:XXXX.XXXXX}
 }
-License
+```
+
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
