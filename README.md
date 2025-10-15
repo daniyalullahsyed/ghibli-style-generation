@@ -66,7 +66,7 @@ Our models were evaluated using FID, SSIM, and LPIPS metrics. The fine-tuned Sta
 
 Here are some examples of the generated images:
 ```
-<img width="986" height="490" alt="image" src="https://github.com/user-attachments/assets/e315b7f0-697c-4663-9cb7-4df8bc491a9f" /> <img width="986" height="490" alt="image" src="https://github.com/user-attachments/assets/cbefb96a-7458-45f0-ac4c-999bd354cfbf" />
+
 ```
 
 
