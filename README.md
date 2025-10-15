@@ -19,6 +19,7 @@ Our contributions include a reproducible GAN implementation, an efficient diffus
 ghibli-style-image-generation/
 ├── data/               # Instructions on how to download the dataset
 ├── notebooks/          # Jupyter Notebooks for full documentation of methodology, experimentation and training pipeline; and results
+├── research/           # Full Research Paper
 ├── src/                # Python source code
 ├── LICENSE             # Project license
 └── README.md           # This file
