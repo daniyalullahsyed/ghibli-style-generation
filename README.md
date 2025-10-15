@@ -65,7 +65,9 @@ You can use the provided Jupyter Notebook (CSC594_Project_GhibliGenerator.ipynb)
 Our models were evaluated using FID, SSIM, and LPIPS metrics. The fine-tuned Stable Diffusion model achieved a final training loss of 0.0796 (MSE) with validation metrics of SSIM=0.71 and LPIPS=0.19, indicating decent structural and perceptual fidelity.
 
 Here are some examples of the generated images:
-
+```
+<img width="986" height="490" alt="image" src="https://github.com/user-attachments/assets/e315b7f0-697c-4663-9cb7-4df8bc491a9f" /> <img width="986" height="490" alt="image" src="https://github.com/user-attachments/assets/cbefb96a-7458-45f0-ac4c-999bd354cfbf" />
+```
 
 
 ### Citation
