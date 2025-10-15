@@ -18,11 +18,8 @@ Our contributions include a reproducible GAN implementation, an efficient diffus
 ```
 ghibli-style-image-generation/
 ├── data/               # Instructions on how to download the dataset
-├── notebooks/          # Jupyter Notebooks for experimentation
+├── notebooks/          # Jupyter Notebooks for full documentation of methodology, experimentation and training pipeline; and results
 ├── src/                # Python source code
-├── models/             # Information on trained models
-├── results/            # Generated images and evaluation results
-├── .gitignore          # Files to be ignored by Git
 ├── LICENSE             # Project license
 └── README.md           # This file
 ```
@@ -62,24 +59,7 @@ pip install -r requirements.txt
 You can use the provided Jupyter Notebook (CSC594_Project_GhibliGenerator.ipynb) located in the notebooks/ directory to explore the data, train the models, and generate images. The notebook is organized into sections for each group's approach.
 
 ### Results
-Our models were evaluated using FID, SSIM, and LPIPS metrics. The fine-tuned Stable Diffusion model achieved a final training loss of 0.0796 (MSE) with validation metrics of SSIM=0.71 and LPIPS=0.19, indicating decent structural and perceptual fidelity.
-
-Here are some examples of the generated images:
-```
-
-```
-
-
-### Citation
-If you use this work in your research, please cite our paper:
-```
-@article{ghibli_style_2025,
-  title={Ghibli-Style Image Generation from Scratch and Pretrained Models},
-  author={Batjargal, Amarsaikhan and Pookkattuparambil, Sujay and Azaz, Talha and Syed, Daniyal},
-  year={2025},
-  journal={arXiv preprint arXiv:XXXX.XXXXX}
-}
-```
+Our models were evaluated using FID, SSIM, and LPIPS metrics. The fine-tuned Stable Diffusion model achieved a final training loss of 0.0796 (MSE) with validation metrics of SSIM=0.71 and LPIPS=0.19, indicating decent structural and perceptual fidelity. Results can be found in our jupiter notebook.
 
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
