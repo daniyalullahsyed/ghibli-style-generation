@@ -4,7 +4,7 @@ Comparing GAN and Diffusion models to transform photos into the Studio Ghibli ar
 Ghibli-Style Image Generation
 This repository contains the code and resources for the research project "Ghibli-Style Image Generation from Scratch and Pretrained Models", which explores deep generative models for stylizing real-world photographs into the aesthetic of Studio Ghibli.
 
-###Abstract
+### Abstract
 
 This project presents a dual-approach investigation into stylizing real-world photographs into the whimsical aesthetic of Studio Ghibli using deep generative models under low-data constraints. Due to the lack of publicly available paired datasets, we curated and augmented a novel collection of 400 image pairs.
 
@@ -14,7 +14,7 @@ Group 2 fine-tuned a pretrained Stable Diffusion v1.5 model with Low-Rank Adapta
 
 Our contributions include a reproducible GAN implementation, an efficient diffusion-based fine-tuning pipeline, and a new open-source dataset.
 
-###Repository Structure
+### Repository Structure
 ```
 ghibli-style-image-generation/
 ├── data/               # Instructions on how to download the dataset
