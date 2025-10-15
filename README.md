@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ```
 
 ### Usage
-You can use the provided Jupyter Notebook (CSC594_Project_GhibliGenerator.ipynb) located in the notebooks/ directory to explore the data, train the models, and generate images. The notebook is organized into sections for each group's approach.
+You can use the provided Jupyter Notebook (GhibliGenerator.ipynb) located in the notebooks/ directory to explore the data, train the models, and generate images. The notebook is organized into sections for each group's approach.
 
 ### Results
 Our models were evaluated using FID, SSIM, and LPIPS metrics. The fine-tuned Stable Diffusion model achieved a final training loss of 0.0796 (MSE) with validation metrics of SSIM=0.71 and LPIPS=0.19, indicating decent structural and perceptual fidelity. Results can be found in our jupiter notebook.
